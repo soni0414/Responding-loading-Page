@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+}
+
+#navbar1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar2 {
+    flex-grow: 1;
+}
+
+#navbar3 {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+#content {
+    padding-top: 60px;
+}
+
+section {
+    padding: 20px;
+    height: 100vh;
+}
+
+#navbar3:hover {
+    background-color: #555;
+}
